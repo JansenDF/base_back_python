@@ -1,4 +1,4 @@
-# backend_plano_acao - README
+# base_back_python - README
 
 ### Montar projeto local
 
@@ -11,8 +11,8 @@ pip install -r requirements.txt
 Projeto backend
 
 ```bash
-git clone https://github.com/tellusDesenv/backend_plano_acao.git
-cd backend_plano_acao
+git clone https://github.com/JansenDF/base_back_python.git
+cd base_back_python
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -53,9 +53,9 @@ Antes do commit executar:
 
 ```
 flake8 ./manage.py 
-flake8 ./backend_plano_acao
+flake8 ./base_back_python
 flake8 ./tests/
 
-bandit --skip B104 --verbose --recursive ./backend_plano_acao
+bandit --skip B104 --verbose --recursive ./base_back_python
 bandit --skip B104 --verbose --recursive ./tests
 bandit --skip B104 --verbose --recursive ./manage.py
